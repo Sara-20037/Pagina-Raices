@@ -1,0 +1,74 @@
+body{
+    background: white;
+    background-size: cover;
+    height: auto;
+}
+
+@font-face {
+    font-family: summer;
+    src: url(./Font/Summer-PersonalUse.ttf);
+}
+
+@font-face {
+    font-family: fontastique;
+    src: url(./Font/fontastique.ttf);
+}
+
+.Encabezado{
+    background-color: #23491C;
+}
+
+.nav-item{
+    background-color: #ADD3A2;
+    height: 55px;
+    width: 195px;
+    font-family: "summer";
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 50px;
+    display: flex;
+   justify-content:  center;
+
+}
+
+.nav-item :hover{
+    background-color: transparent;
+    transition: 0.5s;
+    color: white !important;
+}
+
+.titulo{
+    font-family: summer;
+    color: #449BC1;
+}
+.text{
+    font-family: fontastique;
+   margin:50px;
+   text-align: justify;
+}
+
+.text1{
+    font-family: fontastique;
+    font-size: 14pt;
+    text-align: justify;
+    margin-right: 2rem;
+}
+
+.boton{
+    font-family: summer;
+    background-color: #DCE061;
+    border: none;
+}
+.bot :hover{
+    background-color:#ADD3A2;
+    transition: 0.5s;
+}
+
+/* .logos{
+    margin: 15px;
+}
+ */
+
+hr.dotted {
+    border-top: 2px dotted black;
+}
